@@ -1,5 +1,5 @@
 # Setup
-title: Jackson Zixun HUANG
+title: Jackson, Zixun HUANG
 description: Welcome to my personal site!
 url: https://github.com/jacksonhzx95
 avatar: /2401709541687_.pic.jpg
@@ -35,7 +35,7 @@ google scholar:
 logo: logo.png
 
 github:
-  name: Jackson Zixun HUANG
+  name: Jackson, Zixun HUANG
   links:
     - 
     - https://github.com/jacksonhzx95
@@ -56,6 +56,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Jackson Zixun HUANG
+  name: Jackson, Zixun HUANG
   url: https://github.com/jacksonhzx95/
   email: zixun.huang@connect.polyu.hk
