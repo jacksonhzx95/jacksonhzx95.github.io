@@ -1,7 +1,7 @@
 # Setup
-title: Jackson Z.X. HUANG
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Jackson Zixun HUANG
+description: Welcome to my personal site!
+url: https://github.com/jacksonhzx95
 avatar: /2401709541687_.pic.jpg
 paginate: 5
 permalink: pretty
@@ -28,11 +28,13 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
+google scholar:
+  name: Zixun HUANG
+  links:
+    - https://scholar.google.com/citations?hl=en&user=g95Mv-0AAAAJ
 logo: logo.png
-social:
+
+github:
   name: Jackson Zixun HUANG
   links:
     - 
