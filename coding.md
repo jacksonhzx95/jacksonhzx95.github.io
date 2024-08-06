@@ -1,7 +1,7 @@
 ---
 layout: archive-taxonomies
 permalink: /categories/coding
-title: Categories
+title: coding
 type: categories
 ---
 
