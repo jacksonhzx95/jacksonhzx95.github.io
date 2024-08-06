@@ -1,9 +1,9 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: zixun.huang@connect.polyu.hk
   icon: fas fa-envelope
-- title: Twitter
+- title: Google Scholar
   url: https://twitter.com/vszhub
-  icon: fab fa-twitter
+  icon: fab fa-google scholar 
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/jacksonhzx95/
   icon: fab fa-github
