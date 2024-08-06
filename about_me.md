@@ -5,6 +5,10 @@ title: About Me
 
 This is the preliminary version of my personal website, more info and functions will be released very soon. 
 
-# **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+## Welcome to jacksonhuang.site
+I am currently working at Telefiled Medical Image Limited at Hong Kong in the meidcal image analysis field, as a Senior Algorithm Engineer. I received my PhD and MSc degrees at The Hong Kong Polytechnic University (PolyU-EIE) in 2023 and 2018 respectively, supervised by Dr. Frank H. F. Leung, Prof. Yong-Ping Zheng, and Dr. Sai Ho Ling (UTS). I obtained a B.Eng degree from South China University of Technology (SCUT) in 2017.
 
-# For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+## Contact me
+Email: zixun.huang@connect.polyu.hk
+Wechat: Jackson_HZX
+
