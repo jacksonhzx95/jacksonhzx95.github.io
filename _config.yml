@@ -59,3 +59,8 @@ author:
   name: Jackson, Zixun HUANG
   url: https://github.com/jacksonhzx95/
   email: zixun.huang@connect.polyu.hk
+  
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
