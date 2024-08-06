@@ -42,4 +42,31 @@ layout: default
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
+  
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClustrMaps Globe Widget</title>
+    <style>
+        #clustrmaps-container {
+            width: 500px;  /* Set the desired width */
+            height: 500px; /* Set the desired height */
+            overflow: hidden; /* Hide any overflow if necessary */
+            position: relative; /* Ensure proper positioning */
+        }
+        #clustrmaps-container > script {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="clustrmaps-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dI7-KLmCNsMqZdnwvRLzVH37FIH_354hiGs4ipSHTAg"></script>
+    </div>
+</body>
+</html>
