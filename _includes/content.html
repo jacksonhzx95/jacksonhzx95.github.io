@@ -11,7 +11,11 @@
     {%- assign year_string = year_from | append: '&nbsp;' | append: '-' | append: '&nbsp;' | append: year_to -%}
   {%- endif -%}
   <small>
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dI7-KLmCNsMqZdnwvRLzVH37FIH_354hiGs4ipSHTAg"></script>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div id="clustrmaps-container" style="width: 500px; height: 500px; overflow: hidden; position: relative;">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=dI7-KLmCNsMqZdnwvRLzVH37FIH_354hiGs4ipSHTAg"></script>
+    </div>
+</div>
     &copy; {{ year_string }} {% if site.author %}<a href="{{ site.author.url }}">{{ site.author.name }}</a>{% endif %}. All rights reserved.
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
   </small>
