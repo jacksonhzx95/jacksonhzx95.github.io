@@ -3,7 +3,7 @@
   icon: fas fa-envelope
 - title: Google Scholar
   url: https://scholar.google.com/citations?hl=en&user=g95Mv-0AAAAJ
-  icon: fab google-scholar
+  icon=fa-brands fa-google-scholar
 - title: GitHub
   url: https://github.com/jacksonhzx95/
   icon: fab fa-github
