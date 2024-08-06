@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
-permalink: /coding
+permalink: /coding/
 title: coding
 type: categories
 ---
