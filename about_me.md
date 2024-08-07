@@ -19,7 +19,7 @@ Wechat: Jackson_HZX
 **Feb. 2024**: One paper got accepted by **IEEE TMI** entitled ["Landmark Localization from Medical Images with Generative Distribution Prior"](https://ieeexplore.ieee.org/abstract/document/10453619)
 
 ## Professional Activities
-###Reviewer
+### Reviewer
 
 Medical Image Analysis (JCR: Q1), Neurocomputing (JCR: Q1), Journal of Biomedical and Health Informatics (JCR: Q1), Artificial Intelligence in Medicine (JCR: Q1), Scientific Reports (JCR: Q1), Knowledge and Information Systems (JCR: Q2), Machine Vision and Applications (JCR: Q2), Signal, Image and Video Processing (JCR: Q2).
 
