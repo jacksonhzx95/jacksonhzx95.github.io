@@ -8,6 +8,8 @@ I am currently working at Telefiled Medical Image Limited in Hong Kong in the fi
 
 This is the preliminary version of my personal website. More information and functions will be released soon.
 
+## News
+**July 10, 2024**: I will join the Artificial Intelligence College of **Shenzhen Polytechnic University** in Sept. 2024. 
 
 ## Contact me
 Email: zixun.huang@connect.polyu.hk
