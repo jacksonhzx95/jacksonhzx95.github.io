@@ -6,7 +6,7 @@ title: About Me
 
 I am currently working at Telefiled Medical Image Limited in Hong Kong in the field of medical image analysis, as a Senior Algorithm Engineer. I received my PhD and MSc degrees from The Hong Kong Polytechnic University (PolyU-EIE) in 2023 and 2018, respectively, under the supervision of [Dr. Frank H. F. Leung](https://staff.eie.polyu.edu.hk/enfrank/), [Prof. Yong-Ping Zheng](https://www.polyu.edu.hk/bme/people/academic-staff/prof-zheng-yong-ping/), and [Dr. Steve S. H. Ling (UTS)](https://profiles.uts.edu.au/Steve.Ling). I obtained my B.Eng degree from South China University of Technology (SCUT) in 2017.
 
-This is the preliminary version of my personal website. More information and functions will be released soon.
+This is a preliminary version of my personal website. More information and functions will be released soon.
 
 ## News
 **Jul. 10, 2024**: I will join the Artificial Intelligence College of **Shenzhen Polytechnic University** in Sept. 2024. 
