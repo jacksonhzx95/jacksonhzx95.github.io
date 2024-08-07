@@ -13,9 +13,9 @@ This is a preliminary version of my personal website. More information and funct
 
 **Feb. 29, 2024**: One paper got accepted by **IEEE TMI** entitled ["Landmark Localization from Medical Images with Generative Distribution Prior"](https://ieeexplore.ieee.org/abstract/document/10453619)
 
-# Publications
+## Publications
 
-## Journal Papers
+### Journal Papers
 
 1. **[Landmark Localization from Medical Images with Generative Distribution Prior](https://doi.org/10.1109/TMI.2024.3371948)**  
    **Zixun Huang**, Rui Zhao, Frank H. F. Leung, et al.  
@@ -53,7 +53,7 @@ This is a preliminary version of my personal website. More information and funct
    Anjany Sekuboyina, Malek E. Husseini, Amirhossein Bayat, (**Zixun Huang**), et al.  
    Medical Image Analysis 73 (2021) (JCR：Q1): 102166.
 
-## Conference Papers
+### Conference Papers
 
 1. **Bone Feature Segmentation in Ultrasound Spine Image with Robustness to Speckle and Regular Occlusion Noise**  
    **Zixun HUANG**, Li-Wen Wang, Frank H. F. Leung, et al.  
@@ -75,7 +75,7 @@ This is a preliminary version of my personal website. More information and funct
    Hao Xie, **Zixun HUANG**, Frank HF Leung, et al.  
    IEEE ISBI 2024 (EI) (Accepted).
 
-## Patents
+### Patents
 
 1. **发明专利：基于手持超声的实时腹直肌分割和3D重建方法**  
    **案号：** PCN2312079GW
