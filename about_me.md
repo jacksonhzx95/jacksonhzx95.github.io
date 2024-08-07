@@ -14,9 +14,9 @@ Email: zixun.huang@connect.polyu.hk
 Wechat: Jackson_HZX
 
 ## News
-**Jul., 2024**: I will join the Artificial Intelligence College of **Shenzhen Polytechnic University** in Sept. 2024. 
+**Jul. 2024**: I will join the Artificial Intelligence College of **Shenzhen Polytechnic University** in Sept. 2024. 
 
-**Feb., 2024**: One paper got accepted by **IEEE TMI** entitled ["Landmark Localization from Medical Images with Generative Distribution Prior"](https://ieeexplore.ieee.org/abstract/document/10453619)
+**Feb. 2024**: One paper got accepted by **IEEE TMI** entitled ["Landmark Localization from Medical Images with Generative Distribution Prior"](https://ieeexplore.ieee.org/abstract/document/10453619)
 
 ## Publications
 
