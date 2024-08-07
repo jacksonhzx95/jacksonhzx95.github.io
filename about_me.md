@@ -18,6 +18,8 @@ Wechat: Jackson_HZX
 
 **Feb. 2024**: One paper got accepted by **IEEE TMI** entitled ["Landmark Localization from Medical Images with Generative Distribution Prior"](https://ieeexplore.ieee.org/abstract/document/10453619)
 
+**Jan. 2023**: I am overjoyed to announce that my **daughter** has joined our family! Her arrival has brought immense happiness and love into our lives. We are excited to begin this wonderful journey together as a family.
+
 ## Professional Activities
 ### Reviewer
 
