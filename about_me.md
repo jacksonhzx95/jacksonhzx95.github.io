@@ -8,6 +8,11 @@ I am currently working at Telefiled Medical Image Limited in Hong Kong in the fi
 
 This is a preliminary version of my personal website. More information and functions will be released soon.
 
+## Contact me
+Email: zixun.huang@connect.polyu.hk
+
+Wechat: Jackson_HZX
+
 ## News
 **Jul., 2024**: I will join the Artificial Intelligence College of **Shenzhen Polytechnic University** in Sept. 2024. 
 
@@ -80,8 +85,5 @@ This is a preliminary version of my personal website. More information and funct
 - **发明专利：基于手持超声的实时腹直肌分割和3D重建方法**  
    **案号：** PCN2312079GW
 
-## Contact me
-Email: zixun.huang@connect.polyu.hk
 
-Wechat: Jackson_HZX
 
