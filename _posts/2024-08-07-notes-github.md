@@ -34,13 +34,11 @@ git init
 ``` bash
 git add [file_name] 
 ```
--	Tips: 
-   
+ -	Tips: 
 	1.) use . to add all files.
 	``` bash
 	git add .
 	```
-
 	2.) Then use [git rm] to remove the unnecessary files/folder
 	``` bash
 	git rm -r [folder_name]
@@ -154,7 +152,7 @@ git status
    	```
 
 ## Trouble Shooting
-  ### CONFLICT
+### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
      1) Check Status
 	``` bash
