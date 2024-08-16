@@ -33,11 +33,11 @@ git add [file_name]
   ```
 Tips: 
 
-1) use . to add all files 
+	1) use . to add all files 
   ``` bash
 git add .
   ```
-2) Then use [git rm] to remove the unnecessary files/folder
+	2) Then use [git rm] to remove the unnecessary files/folder
   ``` bash
 git rm -r [folder_name]
 git rm [file_name]
