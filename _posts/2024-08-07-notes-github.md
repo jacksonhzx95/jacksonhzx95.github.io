@@ -46,6 +46,7 @@ git add [file_name]
 	git rm -r [folder_name]
 	git rm [file_name]
 	```
+
 4. Commit Your Files:
 ``` bash
 git commit -m "Initial commit"
