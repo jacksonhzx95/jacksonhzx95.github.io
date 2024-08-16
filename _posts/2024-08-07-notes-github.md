@@ -13,6 +13,13 @@ Welcome to **Notes for Github**! this section contains useful code in daily main
 
 ## first-time get a local repo
 
-### login 
+### 1. Create a New Repository on GitHub 
+  -	Click on the + icon in the top-right corner of the page and select New repository.
+	-	Enter a Repository name and an optional Description.
+	-	Choose between a Public or Private repository.
+	-	(Optional) Add a .gitignore file, a license, and a README file.
+	-	Click Create repository.
+ 
+
 
 
