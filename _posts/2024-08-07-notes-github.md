@@ -109,7 +109,8 @@ git status
 
 ### What git status Shows You
 - **Untracked Files:** These are files in your working directory that are not being tracked by Git. If you want Git to track them, you need to add them using git add.
-   	Example:
+
+  	Example:
 	``` bash
 	Untracked files:
 	(use "git add <file>..." to include in what will be committed)
@@ -128,6 +129,7 @@ git status
 	  modified:   example.txt
    	```
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
+
   	Example:
   	``` bash
    	Changes to be committed:
@@ -137,6 +139,7 @@ git status
 	  modified:   anotherfile.py
    	```
 - **Clean Working Directory:** If there are no changes in the working directory or the staging area, Git will report that your working directory is clean.
+
   	Example:
   	``` bash
 	On branch master
