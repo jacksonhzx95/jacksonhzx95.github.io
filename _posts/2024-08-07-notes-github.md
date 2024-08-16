@@ -27,7 +27,7 @@ Welcome to **Notes for Github**! this section contains useful code in daily main
   ``` bash
 git init
   ``` 
--	 Add Files:
+3.	 Add Files:
   ``` bash
 git add [file_name] 
   ```
@@ -42,3 +42,9 @@ git add .
 git rm -r [folder_name]
 git rm [file_name]
   ```
+4. Commit Your Files:
+``` bash
+git commit -m "Initial commit"
+  ```
+5.  
+### 3. Initialize a Local Repository
