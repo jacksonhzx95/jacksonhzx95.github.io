@@ -121,7 +121,8 @@ git status
 	```
 
 - **Changes Not Staged for Commit:** These are modifications to tracked files that haven’t been staged yet. You can stage them using git add.
- 	Example:
+
+  	Example:
   	``` bash
 	Changes not staged for commit:
 	 (use "git add <file>..." to update what will be committed)
