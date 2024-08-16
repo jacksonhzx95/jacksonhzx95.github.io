@@ -45,11 +45,11 @@ git add [file_name]
 	``` bash
 	git rm -r [folder_name]
 	git rm [file_name]
-	  ```
+	```
 4. Commit Your Files:
 ``` bash
 git commit -m "Initial commit"
-  ```
+```
 
 
 	
@@ -59,16 +59,16 @@ git commit -m "Initial commit"
 1.	Add Remote Repository:
 -	Copy the HTTPS or SSH URL of your GitHub repository from the GitHub website.
 -	In your terminal or command prompt, run:
-  ``` bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-```
+  	``` bash
+	git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+	```
 
 ### 4. Push Your Code to GitHub
 
 1. Push to Github:
-``` bash
-git push -u origin master
-```
+	``` bash
+	git push -u origin master
+	```
 2. Verify Your Upload
 	2.1 Check GitHub:
 	-	Go to your GitHub repository page.
@@ -132,7 +132,7 @@ git status
   	``` bash
    	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-
+   	
 	  new file:   newfile.txt
 	  modified:   anotherfile.py
    	```
@@ -155,18 +155,18 @@ git status
      2) Resolve the Conflicts
 	We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
 
-		``` bash
-	 	<<<<<<< HEAD
-		# Your changes
-		=======
-		# Changes from the other branch
-		>>>>>>> other-branch
-		```
- 		For each conflict:
+	``` bash
+	<<<<<<< HEAD
+	# Your changes
+	=======
+	# Changes from the other branch
+	>>>>>>> other-branch
+	```
+	For each conflict:
 
-		1.	Edit the file to manually reconcile the differences between the conflicting versions.
-		2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
-		3.	Save the file after you’ve resolved the conflict.
+	1.	Edit the file to manually reconcile the differences between the conflicting versions.
+	2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+	3.	Save the file after you’ve resolved the conflict.
 
      3) Add the Resolved Files to the Staging Area
   	``` bash
