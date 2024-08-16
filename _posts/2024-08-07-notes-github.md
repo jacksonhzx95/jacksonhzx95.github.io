@@ -75,14 +75,14 @@ git push -u origin master
 ### Additional Steps (Optional)
 
 - Create and Switch to a New Branch:
-``` bash
-git checkout -b new-branch-name
-```
+	``` bash
+	git checkout -b new-branch-name
+	```
 
-Then, push this branch to Github:
-``` bash
-git push -u origin new-branch-name
-```
+	Then, push this branch to Github:
+	``` bash
+	git push -u origin new-branch-name
+	```
 
 - Pull changes from GitHub:
 
