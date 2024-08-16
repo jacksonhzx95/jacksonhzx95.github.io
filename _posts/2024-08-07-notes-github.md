@@ -28,13 +28,13 @@ Welcome to **Notes for Github**! this section contains useful code in daily main
 2.	 Initialize Git:
   ``` bash
 git init
-  ``` 
-3.	 Add Files:
-  ``` bash
-git add [file_name] 
   ```
 
--   Tips: 
+3.	 Add Files:
+``` bash
+git add [file_name] 
+```
+-	Tips: 
    
 	1.) use . to add all files.
 	``` bash
@@ -47,7 +47,7 @@ git add [file_name]
 	git rm [file_name]
 	```
 
-4. Commit Your Files:
+4.	 Commit Your Files:
 ``` bash
 git commit -m "Initial commit"
 ```
@@ -112,6 +112,7 @@ git status
 - **Untracked Files:** These are files in your working directory that are not being tracked by Git. If you want Git to track them, you need to add them using git add.
 
   	Example:
+  
 	``` bash
 	Untracked files:
 	(use "git add <file>..." to include in what will be committed)
@@ -133,6 +134,7 @@ git status
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
 
   	Example:
+  
   	``` bash
    	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
@@ -143,6 +145,7 @@ git status
 - **Clean Working Directory:** If there are no changes in the working directory or the staging area, Git will report that your working directory is clean.
 
   	Example:
+  
   	``` bash
 	On branch master
 	Your branch is up to date with 'origin/master'.
@@ -150,7 +153,7 @@ git status
 	nothing to commit, working tree clean
    	```
 
-   ## Trouble Shooting
+## Trouble Shooting
   ### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
      1) Check Status
