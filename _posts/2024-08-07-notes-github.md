@@ -51,6 +51,9 @@ git add [file_name]
 git commit -m "Initial commit"
   ```
 
+
+	
+
 ### 3. Connect Your Local Repository to GitHub
 
 1.	Add Remote Repository:
@@ -97,3 +100,12 @@ git push -u origin master
 	Add collaborators in your GitHub repository settings if it’s a team project.
 
 
+## Git Status
+
+### Check Git Status
+``` bash
+git status
+```
+
+### What git status Shows You
+1. *Untracked Files:* These are files in your working directory that are not being tracked by Git. If you want Git to track them, you need to add them using git add.
