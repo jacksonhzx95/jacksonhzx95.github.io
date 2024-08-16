@@ -2,7 +2,7 @@
 layout: post
 title: Code repo management
 date: 2024-08-06 
-last_modified_at: 2024-08-06
+last_modified_at: 2024-08-16
 categories: code-repo
 tags: [github]
 toc:  true
@@ -67,9 +67,33 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 git push -u origin master
 ```
 2. Verify Your Upload
-2.1 Check GitHub:
--	Go to your GitHub repository page.
--	You should see all your source code files uploaded.
+	2.1 Check GitHub:
+	-	Go to your GitHub repository page.
+	-	You should see all your source code files uploaded.
 
+
+### Additional Steps (Optional)
+
+- Create and Switch to a New Branch:
+``` bash
+git checkout -b new-branch-name
+```
+
+Then, push this branch to Github:
+``` bash
+git push -u origin new-branch-name
+```
+
+- Pull changes from GitHub:
+
+	If you want to fetch and merge changes from the GitHub repository to your local repository, use:
+
+	``` bash
+	git pull origin master
+	```
+
+- Collaborate with Others:
+
+	Add collaborators in your GitHub repository settings if it’s a team project.
 
 
