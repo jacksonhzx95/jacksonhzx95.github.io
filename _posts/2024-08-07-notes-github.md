@@ -144,4 +144,40 @@ git status
 
 	nothing to commit, working tree clean
    	```
-   
+
+   ## Trouble Shooting
+  ### CONFLICT
+1. **Conflict (content)**: Merge conflict in ***.py
+     1) Check Status
+	``` bash
+	git status
+	```
+     2) Resolve the Conflicts
+	We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
+
+		``` bash
+	 	<<<<<<< HEAD
+		# Your changes
+		=======
+		# Changes from the other branch
+		>>>>>>> other-branch
+		```
+ 		For each conflict:
+
+		1.	Edit the file to manually reconcile the differences between the conflicting versions.
+		2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+		3.	Save the file after you’ve resolved the conflict.
+
+     3) Add the Resolved Files to the Staging Area
+  	``` bash
+   	git add path/to/resolved-file
+   	```
+     4) Commit the Merge & Push 
+  	Once all conflicts have been resolved and the files have been added to the staging area, you can commit the merge.
+	
+ 	After committing the merge, you can continue with your normal Git workflow. For example, if you were merging a feature branch into master, you might now push the master branch to your remote repository:
+	``` bash
+   	git commit -m "conflict resolved."
+ 	git push origin master
+   	```
+     5) 
