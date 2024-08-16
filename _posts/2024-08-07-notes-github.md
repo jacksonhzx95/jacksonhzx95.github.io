@@ -34,19 +34,18 @@ git init
 git add [file_name] 
   ```
 
-   Tips: 
+-   Tips: 
    
-1.) use . to add all files.
-   
-``` bash
-git add .
-```
+	1.) use . to add all files.
+	``` bash
+	git add .
+	```
 
-2.) Then use [git rm] to remove the unnecessary files/folder
-``` bash
-git rm -r [folder_name]
-git rm [file_name]
-  ```
+	2.) Then use [git rm] to remove the unnecessary files/folder
+	``` bash
+	git rm -r [folder_name]
+	git rm [file_name]
+	  ```
 4. Commit Your Files:
 ``` bash
 git commit -m "Initial commit"
