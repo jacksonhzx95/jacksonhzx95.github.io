@@ -21,18 +21,20 @@ Welcome to **Notes for Github**! this section contains useful code in daily main
 -	Click Create repository.
 
 ### 2. Initialize a Local Repository
-#### 1. 	Open Terminal or Command Prompt:
-		Navigate to the directory where your source code is located.
-#### 2.	 Initialize Git:
+1. 	Open Terminal or Command Prompt:
+
+	Navigate to the directory where your source code is located.
+
+2.	 Initialize Git:
   ``` bash
 git init
   ``` 
-#### 3.	 Add Files:
+3.	 Add Files:
   ``` bash
 git add [file_name] 
   ```
 
-#####    Tips: 
+   Tips: 
    
 1.) use . to add all files.
    
@@ -49,5 +51,26 @@ git rm [file_name]
 ``` bash
 git commit -m "Initial commit"
   ```
-5.  
-### 3. Initialize a Local Repository
+
+### 3. Connect Your Local Repository to GitHub
+
+1.	Add Remote Repository:
+-	Copy the HTTPS or SSH URL of your GitHub repository from the GitHub website.
+-	In your terminal or command prompt, run:
+  ``` bash
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+```
+
+### 4. Push Your Code to GitHub
+
+1. Push to Github:
+``` bash
+git push -u origin master
+```
+2. Verify Your Upload
+2.1 Check GitHub:
+-	Go to your GitHub repository page.
+-	You should see all your source code files uploaded.
+
+
+
