@@ -21,26 +21,26 @@ Welcome to **Notes for Github**! this section contains useful code in daily main
 -	Click Create repository.
 
 ### 2. Initialize a Local Repository
-1. 	Open Terminal or Command Prompt:
+#### 1. 	Open Terminal or Command Prompt:
 		Navigate to the directory where your source code is located.
-2.	 Initialize Git:
+#### 2.	 Initialize Git:
   ``` bash
 git init
   ``` 
-3.	 Add Files:
+#### 3.	 Add Files:
   ``` bash
 git add [file_name] 
   ```
 
-   Tips: 
+#####    Tips: 
    
-    1.) use . to add all files.
+1.) use . to add all files.
    
 ``` bash
 git add .
 ```
 
-    2.) Then use [git rm] to remove the unnecessary files/folder
+2.) Then use [git rm] to remove the unnecessary files/folder
 ``` bash
 git rm -r [folder_name]
 git rm [file_name]
