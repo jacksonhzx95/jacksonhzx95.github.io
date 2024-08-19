@@ -111,65 +111,65 @@ git status
 
  	Example:
 
-	``` bash
-	Untracked files:
-	(use "git add <file>..." to include in what will be committed)
-	
-	  somefile.txt
-	  anotherfile.py
-	```
+{% highlight js linenos %}
+Untracked files:
+(use "git add <file>..." to include in what will be committed)
+
+somefile.txt
+anotherfile.py
+{% endhighlight %}
 
 - **Changes Not Staged for Commit:** These are modifications to tracked files that haven’t been staged yet. You can stage them using git add.
 
 	Example:
-	{% highlight js linenos %}
-	Changes not staged for commit:
-	 (use "git add <file>..." to update what will be committed)
-	 (use "git restore <file>..." to discard changes in working directory)
+{% highlight js linenos %}
+Changes not staged for commit:
+ (use "git add <file>..." to update what will be committed)
+ (use "git restore <file>..." to discard changes in working directory)
 	
-	modified:   example.txt
-	{% endhighlight %}
+modified:   example.txt
+{% endhighlight %}
 
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
 
- 	Example:
+Example:
 
-	{% highlight js linenos %}
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-	
-	new file:   newfile.txt
-	modified:   anotherfile.py
-	{% endhighlight %}
+{% highlight js linenos %}
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+
+new file:   newfile.txt
+modified:   anotherfile.py
+{% endhighlight %}
 
 - **Clean Working Directory:** If there are no changes in the working directory or the staging area, Git will report that your working directory is clean.
 
-  	Example:
-  
-	{% highlight js linenos %}
-	On branch master
-	Your branch is up to date with 'origin/master'.
+Example:
 
-	nothing to commit, working tree clean
-	{% endhighlight %}
+{% highlight js linenos %}
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+{% endhighlight %}
 
 ## Trouble Shooting
 ### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
      1) Check Status
-	{% highlight js linenos %}
-	git status
-	{% endhighlight %}
+{% highlight js linenos %}
+git status
+{% endhighlight %}
      2) Resolve the Conflicts
 	We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
 
-	{% highlight js linenos %}
-	<<<<<<< HEAD
-	# Your changes
-	=======
-	# Changes from the other branch
-	>>>>>>> other-branch
-	{% endhighlight %}
+{% highlight js linenos %}
+<<<<<<< HEAD
+# Your changes
+=======
+# Changes from the other branch
+>>>>>>> other-branch
+{% endhighlight %}
  
 	For each conflict:
 
@@ -178,26 +178,26 @@ git status
 	3.	Save the file after you’ve resolved the conflict.
 
      3) Add the Resolved Files to the Staging Area
-  	{% highlight js linenos %}
-   	git add path/to/resolved-file
-   	{% endhighlight %}
+{% highlight js linenos %}
+git add path/to/resolved-file
+{% endhighlight %}
      4) Commit the Merge & Push 
   	Once all conflicts have been resolved and the files have been added to the staging area, you can commit the merge.
 	
  		After committing the merge, you can continue with your normal Git workflow. For example, if you were merging a feature branch into master, you might now push the master branch to your remote repository:
-	{% highlight js linenos %}
-   	git commit -m "conflict resolved."
- 	git push origin master
-   	{% endhighlight %}
+{% highlight js linenos %}
+git commit -m "conflict resolved."
+git push origin master
+{% endhighlight %}
 
 2. **Conflict (modify/delete)**: Merge conflict in *.py
 The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
 	1) Remove the Folder Locally
-	{% highlight js linenos %}
- 	rm -r path/to/your/folder(files)
- 	{% endhighlight %}
+{% highlight js linenos %}
+rm -r path/to/your/folder(files)
+{% endhighlight %}
  	2) Remove the Folder from the Git Repository
-	{% highlight js linenos %}
- 	git rm -r path/to/your/folder
- 	{% endhighlight %}
+{% highlight js linenos %}
+git rm -r path/to/your/folder
+{% endhighlight %}
  	3) Commit and Push
