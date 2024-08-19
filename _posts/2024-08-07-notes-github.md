@@ -170,6 +170,7 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
 =======
 # Changes from the other branch
 >>>>>>> other-branch
+
 {% endhighlight %}
  
 For each conflict:
