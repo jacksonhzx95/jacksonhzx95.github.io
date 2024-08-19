@@ -157,7 +157,7 @@ nothing to commit, working tree clean
 ### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
    
-1) Check Status
+<dd> 1) Check Status
 {% highlight js linenos %}
 git status
 {% endhighlight %}
@@ -191,7 +191,7 @@ After committing the merge, you can continue with your normal Git workflow. For 
 git commit -m "conflict resolved."
 git push origin master
 {% endhighlight %}
-
+</dd>
 2. **Conflict (modify/delete)**: Merge conflict in /*.py
 The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
 1) Remove the Folder Locally
