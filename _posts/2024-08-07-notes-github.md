@@ -171,13 +171,13 @@ git status
 >>>>>>> other-branch
 {% endhighlight %}
  
-	For each conflict:
+For each conflict:
 
-	1.	Edit the file to manually reconcile the differences between the conflicting versions.
-	2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
-	3.	Save the file after you’ve resolved the conflict.
+1.	Edit the file to manually reconcile the differences between the conflicting versions.
+2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+3.	Save the file after you’ve resolved the conflict.
 
-     3) Add the Resolved Files to the Staging Area
+3) Add the Resolved Files to the Staging Area
 {% highlight js linenos %}
 git add path/to/resolved-file
 {% endhighlight %}
