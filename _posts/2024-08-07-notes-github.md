@@ -166,9 +166,9 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
 
 {% highlight js linenos %}
 <<<<<<< HEAD
-# Your changes
+\# Your changes
 =======
-# Changes from the other branch
+\# Changes from the other branch
 >>>>>>> other-branch
 
 {% endhighlight %}
@@ -180,7 +180,7 @@ For each conflict:
 3.	Save the file after you’ve resolved the conflict.
 
 3) Add the Resolved Files to the Staging Area
-{% highlight js linenos %}
+{% highlight py linenos %}
 git add path/to/resolved-file
 {% endhighlight %}
 4) Commit the Merge & Push 
