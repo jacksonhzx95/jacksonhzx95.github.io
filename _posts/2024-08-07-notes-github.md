@@ -175,9 +175,13 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
  
 For each conflict:
 <dd>
+	
 i.	Edit the file to manually reconcile the differences between the conflicting versions.
+
 ii.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+
 iii.	Save the file after you’ve resolved the conflict.
+
 </dd>
 3) Add the Resolved Files to the Staging Area
 {% highlight py linenos %}
