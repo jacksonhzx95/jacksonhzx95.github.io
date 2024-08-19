@@ -58,7 +58,7 @@ git commit -m "Initial commit"
 1.	Add Remote Repository:
 -	Copy the HTTPS or SSH URL of your GitHub repository from the GitHub website.
 -	In your terminal or command prompt, run:
-  	``` bash
+	``` bash
 	git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 	```
 
@@ -173,13 +173,13 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
 
 {% endhighlight %}
  
-For each conflict:
-
-i.	Edit the file to manually reconcile the differences between the conflicting versions.
-
-ii.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
-
-iii.	Save the file after you’ve resolved the conflict.
+	For each conflict:
+	
+	i.	Edit the file to manually reconcile the differences between the conflicting versions.
+	
+	ii.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+	
+	iii.	Save the file after you’ve resolved the conflict.
 
 3) Add the Resolved Files to the Staging Area
 {% highlight py linenos %}
