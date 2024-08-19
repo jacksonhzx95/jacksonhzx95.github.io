@@ -183,14 +183,14 @@ git add path/to/resolved-file
 {% endhighlight %}
      4) Commit the Merge & Push 
   	Once all conflicts have been resolved and the files have been added to the staging area, you can commit the merge.
-	
- 		After committing the merge, you can continue with your normal Git workflow. For example, if you were merging a feature branch into master, you might now push the master branch to your remote repository:
+
+After committing the merge, you can continue with your normal Git workflow. For example, if you were merging a feature branch into master, you might now push the master branch to your remote repository:
 {% highlight js linenos %}
 git commit -m "conflict resolved."
 git push origin master
 {% endhighlight %}
 
-2. **Conflict (modify/delete)**: Merge conflict in *.py
+2. **Conflict (modify/delete)**: Merge conflict in /*.py
 The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
 	1) Remove the Folder Locally
 {% highlight js linenos %}
