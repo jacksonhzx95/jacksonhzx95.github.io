@@ -156,12 +156,13 @@ nothing to commit, working tree clean
 ## Trouble Shooting
 ### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
-     1) Check Status
+   
+1) Check Status
 {% highlight js linenos %}
 git status
 {% endhighlight %}
-     2) Resolve the Conflicts
-	We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
+2) Resolve the Conflicts
+We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
 
 {% highlight js linenos %}
 <<<<<<< HEAD
