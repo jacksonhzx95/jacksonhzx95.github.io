@@ -122,25 +122,25 @@ git status
 - **Changes Not Staged for Commit:** These are modifications to tracked files that haven’t been staged yet. You can stage them using git add.
 
 	Example:
-	``` bash
+	{% highlight js linenos %}
 	Changes not staged for commit:
 	 (use "git add <file>..." to update what will be committed)
 	 (use "git restore <file>..." to discard changes in working directory)
 	
 	modified:   example.txt
-	```
+	{% endhighlight %}
 
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
 
  	Example:
 
-	``` bash
+	{% highlight js linenos %}
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
 	
 	new file:   newfile.txt
 	modified:   anotherfile.py
-	```
+	{% endhighlight %}
 
 - **Clean Working Directory:** If there are no changes in the working directory or the staging area, Git will report that your working directory is clean.
 
