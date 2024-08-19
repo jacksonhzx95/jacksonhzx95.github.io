@@ -166,9 +166,9 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
 
 {% highlight js linenos %}
 <<<<<<< HEAD
-\# Your changes
+# Your changes
 =======
-\# Changes from the other branch
+# Changes from the other branch
 >>>>>>> other-branch
 
 {% endhighlight %}
