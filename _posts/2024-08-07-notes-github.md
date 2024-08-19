@@ -132,24 +132,24 @@ git status
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
 
  	Example:
-  
-  	``` bash
-   	Changes to be committed:
+
+	``` bash
+	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-   	
-	  new file:   newfile.txt
-	  modified:   anotherfile.py
-   	```
+	
+	new file:   newfile.txt
+	modified:   anotherfile.py
+	```
 - **Clean Working Directory:** If there are no changes in the working directory or the staging area, Git will report that your working directory is clean.
 
   	Example:
   
-  	``` bash
+	``` bash
 	On branch master
 	Your branch is up to date with 'origin/master'.
 
 	nothing to commit, working tree clean
-   	```
+	```
 
 ## Trouble Shooting
 ### CONFLICT
@@ -168,6 +168,7 @@ git status
 	# Changes from the other branch
 	>>>>>>> other-branch
 	```
+ 
 	For each conflict:
 
 	1.	Edit the file to manually reconcile the differences between the conflicting versions.
