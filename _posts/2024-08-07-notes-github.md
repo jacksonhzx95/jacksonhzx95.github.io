@@ -197,7 +197,7 @@ git push origin master
 {% endhighlight %}
 </dd>
 
-\2. **Conflict (modify/delete)**: Merge conflict in /*.py
+2. **Conflict (modify/delete)**: Merge conflict in /*.py
 The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
 
 <dd>1) Remove the Folder Locally
