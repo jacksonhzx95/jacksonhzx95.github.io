@@ -109,7 +109,7 @@ git status
 ### What git status Shows You
 - **Untracked Files:** These are files in your working directory that are not being tracked by Git. If you want Git to track them, you need to add them using git add.
 
-  	Example:
+ 	Example:
   
 	``` bash
 	Untracked files:
@@ -121,7 +121,7 @@ git status
 
 - **Changes Not Staged for Commit:** These are modifications to tracked files that haven’t been staged yet. You can stage them using git add.
 
-  	Example:
+	Example:
   	``` bash
 	Changes not staged for commit:
 	 (use "git add <file>..." to update what will be committed)
@@ -131,7 +131,7 @@ git status
    	```
 - **Changes to Be Committed:** These are files that have been staged and are ready to be committed. These changes will be included in the next commit.
 
-  	Example:
+ 	Example:
   
   	``` bash
    	Changes to be committed:
