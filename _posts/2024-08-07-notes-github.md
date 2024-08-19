@@ -146,30 +146,30 @@ git status
 
   	Example:
   
-	``` bash
+	{% highlight js linenos %}
 	On branch master
 	Your branch is up to date with 'origin/master'.
 
 	nothing to commit, working tree clean
-	```
+	{% endhighlight %}
 
 ## Trouble Shooting
 ### CONFLICT
 1. **Conflict (content)**: Merge conflict in ***.py
      1) Check Status
-	``` bash
+	{% highlight js linenos %}
 	git status
-	```
+	{% endhighlight %}
      2) Resolve the Conflicts
 	We need to manually resolve the conflicts in the files that Git couldn’t merge automatically. The conflicts will be marked in the files, typically looking something like this:
 
-	``` bash
+	{% highlight js linenos %}
 	<<<<<<< HEAD
 	# Your changes
 	=======
 	# Changes from the other branch
 	>>>>>>> other-branch
-	```
+	{% endhighlight %}
  
 	For each conflict:
 
@@ -178,26 +178,26 @@ git status
 	3.	Save the file after you’ve resolved the conflict.
 
      3) Add the Resolved Files to the Staging Area
-  	``` bash
+  	{% highlight js linenos %}
    	git add path/to/resolved-file
-   	```
+   	{% endhighlight %}
      4) Commit the Merge & Push 
   	Once all conflicts have been resolved and the files have been added to the staging area, you can commit the merge.
 	
  		After committing the merge, you can continue with your normal Git workflow. For example, if you were merging a feature branch into master, you might now push the master branch to your remote repository:
-	``` bash
+	{% highlight js linenos %}
    	git commit -m "conflict resolved."
  	git push origin master
-   	```
+   	{% endhighlight %}
 
-2. **Conflict (modify/delete)**: Merge conflict in ***.py
-The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the ***deletion***, keep the **modifications**, or manually integrate the changes.
+2. **Conflict (modify/delete)**: Merge conflict in *.py
+The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
 	1) Remove the Folder Locally
-	``` bash
+	{% highlight js linenos %}
  	rm -r path/to/your/folder(files)
- 	```
+ 	{% endhighlight %}
  	2) Remove the Folder from the Git Repository
-	``` bash
+	{% highlight js linenos %}
  	git rm -r path/to/your/folder
- 	```
+ 	{% endhighlight %}
  	3) Commit and Push
