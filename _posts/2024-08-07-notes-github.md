@@ -174,11 +174,11 @@ We need to manually resolve the conflicts in the files that Git couldn’t merge
 {% endhighlight %}
  
 For each conflict:
-
-1.	Edit the file to manually reconcile the differences between the conflicting versions.
-2.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
-3.	Save the file after you’ve resolved the conflict.
-
+<dd>
+i.	Edit the file to manually reconcile the differences between the conflicting versions.
+ii.	Remove the conflict markers (<<<<<<<, =======, and >>>>>>>).
+iii.	Save the file after you’ve resolved the conflict.
+</dd>
 3) Add the Resolved Files to the Staging Area
 {% highlight py linenos %}
 git add path/to/resolved-file
@@ -192,9 +192,11 @@ git commit -m "conflict resolved."
 git push origin master
 {% endhighlight %}
 </dd>
-2. **Conflict (modify/delete)**: Merge conflict in /*.py
+
+\2. **Conflict (modify/delete)**: Merge conflict in /*.py
 The conflicts in your output indicate situations where a file was deleted in one branch and modified in another (modify/delete conflicts). In these cases, you’ll need to decide whether to keep the **deletion**, keep the **modifications**, or manually integrate the changes.
-1) Remove the Folder Locally
+
+<dd>1) Remove the Folder Locally
 {% highlight js linenos %}
 rm -r path/to/your/folder(files)
 {% endhighlight %}
@@ -203,3 +205,4 @@ rm -r path/to/your/folder(files)
 git rm -r path/to/your/folder
 {% endhighlight %}
 3) Commit and Push
+</dd>
