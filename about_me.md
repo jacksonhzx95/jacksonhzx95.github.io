@@ -22,7 +22,15 @@ Wechat: Jackson_HZX
 ## Professional Activities
 ### Reviewer
 
-Medical Image Analysis (JCR: Q1), Journal of Biomedical and Health Informatics (JCR: Q1), Artificial Intelligence in Medicine (JCR: Q1), Scientific Data (JCR: Q1), Neurocomputing (JCR: Q1), Scientific Reports (JCR: Q1), Knowledge and Information Systems (JCR: Q2), Machine Vision and Applications (JCR: Q2), Signal, Image and Video Processing (JCR: Q2).
+Medical Image Analysis (JCR: Q1), 
+Journal of Biomedical and Health Informatics (JCR: Q1), 
+Artificial Intelligence in Medicine (JCR: Q1), 
+Scientific Data (JCR: Q1), 
+Neurocomputing (JCR: Q1), 
+Scientific Reports (JCR: Q1), 
+Knowledge and Information Systems (JCR: Q2), 
+Machine Vision and Applications (JCR: Q2), 
+Signal, Image and Video Processing (JCR: Q2).
 
 ## Publications
 
