@@ -26,6 +26,12 @@ Medical Image Analysis (JCR: Q1), Journal of Biomedical and Health Informatics (
 
 ## Publications
 
+### Preprint 
+- **[Morphological-consistent Diffusion Network for Ultrasound Coronal Image Enhancement](https://arxiv.org/abs/2409.16661)**  
+   Yihao Zhou, **Zixun Huang**, Timothy Tin-Yan Lee, Chonglin Wu, Kelly Ka-Lee Lai, De Yang, Alec Lik-hang Hung, Jack Chun-Yiu Cheng, Tsz-Ping Lam, Yong-ping Zheng.  
+   **arXiv:2409.16661**
+
+
 ### Journal Papers
 
 - **[Landmark Localization from Medical Images with Generative Distribution Prior](https://doi.org/10.1109/TMI.2024.3371948)**  
